@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background: rgb(67,186,177);
+            background: linear-gradient(99deg, rgba(67,186,177,1) 8%, rgba(30,97,201,1) 48%, rgba(80,112,26,1) 99%);
+        }
+        #form{
+            width: 400px;
+            margin: 20vh auto 0 auto;
+            background-color: whitesmoke;
+            border-radius: 5px;
+                    padding: 13px;
+        }       
+        h1{
+            color: blue;
+            text-align: center;
+        }
+        a{
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+        }
+        #form  a{
+            background-color: rgb(84, 156, 132);
+            color: white;
+            border: 1px solid rgb(84, 156, 132);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px 0;
+            cursor: pointer;
+            font-size: large;
+            width: 380px;
+        }
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+        .input-group input{
+            border-radius: 5px;
+            font-size: large;
+            margin-top: 5px;
+            padding: 5px;
+            border: 1px solid rgb(68, 207, 212);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Login</h1>  
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" >
+                <div class="error"></div>
+            </div> 
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error"></div>
+            </div>
+            <center>
+                <a href="index3.html">Login</a>
+            </center>
+            
+</body>
+</html>
